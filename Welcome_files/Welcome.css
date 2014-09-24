@@ -117,6 +117,9 @@
 .graphic_textbox_layout_style_default {
     padding: 4px;
 }
+.graphic_textbox_layout_style_default_External_100_100 {
+    position: relative;
+}
 .graphic_textbox_layout_style_default_External_491_26 {
     position: relative;
 }
