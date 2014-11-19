@@ -33,6 +33,7 @@ title: RCM
 ## Waveforms
 """)
 files = [os.path.basename(x) for x in glob.glob('RCM/figures/*_*png')]
+files.sort()
 for file in files:
     f.write(('[<img src="figures/%s" alt="waveform" style="width: 300px;"/>](figures/%s)') % (file,file))
     #f.write(('![%s](figures/%s)\n') % (file,file))
@@ -52,6 +53,7 @@ title: STAR
 ## Waveforms
 """)
 files = [os.path.basename(x) for x in glob.glob('STAR/figures/*_*png')]
+files.sort()
 for file in files:
     f.write(('[<img src="figures/%s" alt="waveform" style="width: 300px;"/>](figures/%s)') % (file,file))
     #f.write(('![%s](figures/%s)\n') % (file,file))
